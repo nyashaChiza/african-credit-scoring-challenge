@@ -15,6 +15,7 @@ This repository is designed for the African Credit Scoring Challenge, where the 
 
 #### **Problem Statement**
 Predict customer credit risk using anonymized financial data, enabling financial institutions to assess creditworthiness accurately.
+https://zindi.africa/competitions/african-credit-scoring-challenge/
 
 #### **Solution Approach**
 - Perform **Exploratory Data Analysis (EDA)** to understand data distribution and relationships.  
