@@ -11,7 +11,7 @@ This repository is designed for the African Credit Scoring Challenge, where the 
 - **`pipelines/`**: Contains serialized preprocessing and modeling pipelines (`.pkl` files).  
 - **`scripts/`**: Holds Python scripts for various tasks.  
 - **`notebooks/`**: Jupyter notebooks for exploration, analysis, and experiments.  
-- **`app.py`**: A FastAPI application for serving the trained model.  
+- **`main.py`**: A FastAPI application for serving the trained model.  
 
 #### **Problem Statement**
 Predict customer credit risk using anonymized financial data, enabling financial institutions to assess creditworthiness accurately.
@@ -29,7 +29,7 @@ Predict customer credit risk using anonymized financial data, enabling financial
    ```
 2. Start the FastAPI application:  
    ```bash
-   uvicorn app:app --reload
+   uvicorn main:app --reload
    ```
 3. Access the API at `http://127.0.0.1:8000` for predictions.  
 
